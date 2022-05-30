@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idOverView"
+        android:icon="@drawable/ic_overview"
+        android:title="@string/overview">
+
+    </item>
+    <item
+        android:id="@+id/idCreatteEvent"
+        android:icon="@drawable/ic_createevent"
+        android:title="@string/events">
+
+    </item>
+    <item
+        android:id="@+id/idPayouts"
+        android:icon="@drawable/ic_payout_white"
+        android:title="@string/payouts">
+
+    </item>
+    <item
+        android:id="@+id/idSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings">
+
+    </item>
+
+</menu>

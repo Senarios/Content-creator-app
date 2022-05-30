@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "813758964642",
+    "firebase_url": "https://connectqi-a5ad1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "connectqi-a5ad1",
+    "storage_bucket": "connectqi-a5ad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813758964642:android:6cfe9b8ba74abbe15488fb",
+        "android_client_info": {
+          "package_name": "com.cwise.agoralivestream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYTxSAbfy1b6IUot_tArqQS0IMlLzIQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813758964642-2o1un8i8ths10o556ul8a19pb84o4rbe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.senarios.demoApp1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813758964642:android:f3dc532ebd7b8bc85488fb",
+        "android_client_info": {
+          "package_name": "com.senarios.coneqtlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYTxSAbfy1b6IUot_tArqQS0IMlLzIQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813758964642-2o1un8i8ths10o556ul8a19pb84o4rbe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.senarios.demoApp1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813758964642:android:73185b940547234a5488fb",
+        "android_client_info": {
+          "package_name": "com.senarios.coneqtliveviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813758964642-9ko4p80p90gkvprqkhcp8i7qe8cqodef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.senarios.coneqtliveviewer",
+            "certificate_hash": "27555684fa82cfba8cfef8d777a0e6743c29cd1b"
+          }
+        },
+        {
+          "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYTxSAbfy1b6IUot_tArqQS0IMlLzIQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813758964642-fseaah1csjkva019k4t4j6ldo75qrhgi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813758964642-2o1un8i8ths10o556ul8a19pb84o4rbe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.senarios.demoApp1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

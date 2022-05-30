@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idHeaderMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:gravity="center_vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/idToggleBtn"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_on_button" />
+
+        <TextView
+            android:id="@+id/idHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/idToggleBtn"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="LIVE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/basketLayout"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/idHeaderCartBtn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:padding="3dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_up_downarrow" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/live_recyclerview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/abc"/>-->
+</RelativeLayout>

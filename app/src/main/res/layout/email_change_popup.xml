@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CCffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/border_style_round_gray"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitEnd"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:src="@drawable/ic_close_icon" />
+
+        <TextView
+            android:id="@+id/idGiftCardPopUpMessageAlertTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Change the password"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+        android:id="@+id/oldPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@drawable/border_style_round_gray"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/idOldPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/background_curve"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="Old Password"
+                android:inputType="textPassword"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:maxLength="15"
+                android:textColor="@color/editTextColor"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <ImageButton
+                android:id="@+id/showPasswordIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_eyeicon_pass"
+                android:background="#00ffffff"
+                app:layout_constraintTop_toTopOf="@id/idOldPassword"
+                app:layout_constraintBottom_toBottomOf="@id/idOldPassword"
+                app:layout_constraintRight_toRightOf="@id/idOldPassword"
+                android:layout_marginRight="10dp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idSignUpLastNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/border_style_round_gray"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/idPasswordLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/background_curve"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:hint="New Password"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:maxLength="15"
+                    android:textColor="@color/editTextColor"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    />
+
+                <ImageButton
+                    android:id="@+id/showPassword"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_eyeicon_pass"
+                    android:background="#00ffffff"
+                    app:layout_constraintTop_toTopOf="@id/idPasswordLogin"
+                    app:layout_constraintBottom_toBottomOf="@id/idPasswordLogin"
+                    app:layout_constraintRight_toRightOf="@id/idPasswordLogin"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/confirmNewPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/border_style_round_gray"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/confirmNewPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/background_curve"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:hint="Re-Enter New Password"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:maxLength="15"
+                    android:textColor="@color/editTextColor"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    />
+
+                <ImageButton
+                    android:id="@+id/confirmNewPasswordImage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_eyeicon_pass"
+                    android:background="#00ffffff"
+                    app:layout_constraintTop_toTopOf="@id/confirmNewPassword"
+                    app:layout_constraintBottom_toBottomOf="@id/confirmNewPassword"
+                    app:layout_constraintRight_toRightOf="@id/confirmNewPassword"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/idVerifyPhoneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/idSaveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_background_new_color"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center_vertical|center"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Save"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>

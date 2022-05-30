@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:translationZ="90dp"
+        android:visibility="gone"
+        android:background="#60807A7A"
+        android:id="@+id/idProgressBarRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_main"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:background="@drawable/ripple_circle_animation"
+            app:lottie_rawRes="@raw/loader_black"
+            android:layout_centerInParent="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="428dp"
+        android:layout_height="150dp"
+        android:background="@drawable/background_authentication"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/ic_left" />
+
+
+    <ImageView
+        android:id="@+id/contLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:src="@drawable/logo_app"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/sign_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/forgot_password"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/codeSentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="@dimen/_3sdp"
+        android:text="@string/enter_your_email_address_and_we_ll_send_you_a_code_to_reset_your_password"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/idSignUpLastNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/idEmailLoginFishIt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/email"
+            android:background="@drawable/background_curve"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:textColor="@color/editTextColor" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/idVerifyPhoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/idLoginBtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_background_new_color"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center_vertical|center"
+            android:text="@string/send"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <com.senarios.coneqtlive.Views.TouchBlackHoleView
+        android:id="@+id/blackHole"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+    </com.senarios.coneqtlive.Views.TouchBlackHoleView>
+
+</RelativeLayout>
