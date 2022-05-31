@@ -153,17 +153,6 @@
 
         </activity>
 
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id">
-
-        </meta-data>
-        <meta-data
-            android:name="com.facebook.sdk.ClientToken"
-            android:value="@string/facebook_client_token">
-
-        </meta-data>
-
         <service
             android:name=".Views.Notification.FCMservice"
             android:exported="false">
